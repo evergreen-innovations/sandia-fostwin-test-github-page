@@ -2,9 +2,29 @@
 
 ![](images/mask_basin.jpeg)
 
-**Travel to the MASK Basin Workshop in Bethesda, MD on [Sandia National Lab's](https://energy.sandia.gov/programs/renewable-energy/water-power/) dime!**  
+**Participate in our FOSTWIN control competition for an chance to travel to the MASK Basin Workshop in Bethesda, MD on [Sandia National Lab's](https://energy.sandia.gov/programs/renewable-energy/water-power/) dime!**  
 
-If you're a student or post-grad interested in wave energy converters (WEC) and developing controller software for WEC's, don't miss this opportunity to be a part of testing the Sandia WaveBot!  
+If you're a student or post-grad interested in wave energy converters (WEC) and developing control software for WEC's, don't miss this opportunity to be a part of testing the Sandia WaveBot!  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4npWk_-Pjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Competition
+
+Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.gov/foswec-testing-helps-validate-open-source-modeling-code/) device.  The goal of this controller will be to generate the largest quantity of electrical power across a pre-defined simulation duration.  Top ***N*** power producing controllers will be selected based off data gathered during the simulation and the developer will be awarded the opportunity to participate in, and have their travel expenses reimbursed for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
+
+
+In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
+1. Enroll in the FOSTWIN control competition
+2. Get Familiar with the FOSWEC Digital Twin (this repository) and the associated web interface 
+3. Develop a custom controller as a [Simulink Real-Time](https://www.mathworks.com/products/simulink-real-time.html) model.
+4. Run and debug your controller locally then through the web interface to allow it to run on realtime [Speedgoat](https://www.speedgoat.com/) hardware
+5. Collect & submit your results through the web interface
+
+### Goals of Competition
+
+1. Connect motivated WEC developers with industry leaders and researchers at the MASK Basin Workshop
+2. Extend on content from the 2019 PMEC workshop (video below of PMEC Workshop)
+3. 
 
 
 
