@@ -6,7 +6,14 @@
 
 If you're a student or post-grad interested in wave energy converters (WEC) and developing control software for WEC's, don't miss this opportunity to be a part of testing the Sandia WaveBot!  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c4npWk_-Pjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<img src="images/wavebot-mask-basin.png" style="position:absolute;left:50%;"></img>
+
+
+
+##### Sandia WaveBot
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4npWk_-Pjk" title="YouTube video player" style="width:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Competition
 
@@ -22,7 +29,7 @@ In order to qualify for reimbursement to attend the workshop there's just a few 
 
 ### Goals of Competition
 
-1. Connect motivated WEC developers with industry leaders and researchers at the MASK Basin Workshop
+1. Connect motivated WEC developers with industry leaders and researchers
 2. Extend on content from the 2019 PMEC workshop (video below of PMEC Workshop)
 3. 
 
