@@ -1,4 +1,13 @@
-## Welcome to GitHub Pages
+## Mask Basin Workshop & FOSTWIN Digital Twin
+
+![](images/mask_basin.jpeg)
+
+**Travel to the MASK Basin Workshop in Bethesda, MD on [Sandia National Lab's](https://energy.sandia.gov/programs/renewable-energy/water-power/) dime!**  
+
+If you're a student or post-grad interested in wave energy converters (WEC) and developing controller software for WEC's, don't miss this opportunity to be a part of testing the Sandia WaveBot!  
+
+
+
 
 You can use the [editor on GitHub](https://github.com/evergreen-innovations/sandia-fostwin-test-github-page/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
