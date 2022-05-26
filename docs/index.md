@@ -1,13 +1,14 @@
 ## Mask Basin Workshop & FOSTWIN Digital Twin <!-- omit in toc -->
 
-![](images/mask_basin.jpeg)
-
 **Participate in our FOSTWIN control competition for a chance to travel to the MASK Basin Workshop in Bethesda, MD on [Sandia National Lab's](https://energy.sandia.gov/programs/renewable-energy/water-power/) dime!**  
 
+
+<!-- Make a table for aligning images -->
+|-|-|
+| ![](images/mask_basin.jpeg) | ![](images/wavebot-mask-basin.png) |
+
+
 If you're a student or post-grad interested in wave energy converters (WEC) and developing control software for WEC's, don't miss this opportunity to be a part of large-scale tank testing of the Sandia WaveBot!  
-
-
-![](images/wavebot-mask-basin.png)
 
 
 ##### Sandia WaveBot <!-- omit in toc -->
