@@ -21,7 +21,7 @@ Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.go
 
 In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
 1. [Enroll in the FOSTWIN control competition](#how-to-enroll)
-2. [Get Familiar with the FOSWEC Digital Twin (this repository) and the associated web interface](#getting-familiar) 
+2. [Get Familiar with the FOSWEC Digital Twin and the associated web interface](#getting-familiar) 
 3. [Develop a custom controller as a [Simulink Real-Time](https://www.mathworks.com/products/simulink-real-time.html) model](#developing-a-custom-controller)
 4. [Run and debug your controller locally then through the web interface to allow it to run on realtime [Speedgoat](https://www.speedgoat.com/) hardware](#running-models-and-controller)
 5. [Collect & submit your results through the web interface](#collect-results-and-submit)
