@@ -4,7 +4,7 @@
 
 
 <!-- Make a table for aligning images -->
-|-|-|
+| - | - |
 | ![](images/mask_basin.jpeg) | ![](images/wavebot-mask-basin.png) |
 
 
