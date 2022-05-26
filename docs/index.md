@@ -4,7 +4,9 @@
 
 
 <!-- Make a table for aligning images -->
+
 | - | - |
+|---|---|
 | ![](images/mask_basin.jpeg) | ![](images/wavebot-mask-basin.png) |
 
 
@@ -42,7 +44,11 @@ In order to qualify for reimbursement to attend the workshop there's just a few 
 
 ### How to Enroll <!-- omit in toc -->
 
+
+
 ### Getting Familiar <!-- omit in toc -->
+
+To begin, start with the readme that is in the root of the [open source repository](https://github.com/PMEC-OSU/FOSTWIN).  There are text, pdf, and video tutorials to help you get familiar with the system.  Once you've gotten familiar with the modeling at a high level (understand the signals passed between twin and controller and differences between the digital twin model options)
 
 ### Developing a Custom Controller <!-- omit in toc -->
 
