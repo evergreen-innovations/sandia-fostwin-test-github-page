@@ -25,18 +25,19 @@ Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.go
 
 | - | - |
 |---|---|
-| The controller for the competition will be built to control a System Identification digital twin model of the FOSWEC device, a real world tank-scale floating oscillating surge wave energy converter.  The twin for the competition was modeled from the data collected in a similar wave tank testing campaign done at [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab). | ![](images/FOSWEC2_HWRL.png) |
-
-
+| The controller for the competition will be built to control a System Identification 
+digital twin model of the FOSWEC device, a real world tank-scale floating oscillating 
+surge wave energy converter.  The twin for the competition was modeled from the data 
+collected in a similar wave tank testing campaign done at [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab). | ![](images/FOSWEC2_HWRL.png) |
 
 
 In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
 
 1. [Enroll in the FOSTWIN control competition](#how-to-enroll)
 2. [Get Familiar with the FOSWEC Digital Twin and the associated web interface](#getting-familiar) 
-3. [Develop a custom controller as a [Simulink Real-Time](https://www.mathworks.com/products/simulink-real-time.html) model](#developing-a-custom-controller)
-4. [Run and debug your controller locally then through the web interface to allow it to run on realtime [Speedgoat](https://www.speedgoat.com/) hardware](#running-models-and-controller)
-5. [Collect & submit your results through the web interface](#collect-results-and-submit)
+3. [Develop a custom controller as a Simulink Real-Time model](#developing-a-custom-controller)
+4. [Run and debug your controller locally then through the web interface to allow it to run on realtime Speedgoat hardware](#running-models-and-controller)
+5. [Collect & submit your results from the real-time simulation(s) through the web interface](#collect-results-and-submit)
 
 
 
@@ -56,18 +57,21 @@ In order to qualify for reimbursement to attend the workshop there's just a few 
 To participate in this competition, you must have a few pre-requisites:
 
 1. Valid MATLAB License 
-2. Simulink Real-Time Toolbox - to develop a controller (SPECIFICS NEEDED HERE)
-3. Internet Connection - for using web interface
-4. Others?
+2. Valid [Simulink](https://www.mathworks.com/products/simulink.html) license
+   1. Valid [Simscape](https://www.mathworks.com/products/simscape.html) license and [Simscape Multibody](https://www.mathworks.com/products/simscape-multibody.html) license - **Only required if wanting to work with the WECSim twin in local development**
 
-If those requirements are met, then all you'll need is to be granted access to the web interface.  Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.  You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID] digital twin model.
+
+If those requirements are met, then all you'll need is to be granted access to the web interface.  Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.  You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twin model.
 
 ### Getting Familiar <!-- omit in toc -->
 
-To begin, start with the readme that is in the root of the [open source repository](https://github.com/PMEC-OSU/FOSTWIN).  There are text, pdf, and video tutorials to help you get familiar with the system.  Once you've gotten familiar with the modeling at a high level (understand the signals passed between twin and controller and differences between the digital twin model options) you're ready to step into real-time control through the web interface.  The web platform allows individuals without the appropriate toolboxes or realtime Speedgoat hardware to work with realtime control systems (however participants will need the appropriate toolboxes to develop their custom controller). 
+To aid both the WEC development community and new users interested in learning about real-time control of digital twins through the web interface, we've created an [open source repository](https://github.com/PMEC-OSU/FOSTWIN).  This repo contains all code and instructions needed to run the twin and a provided default controller locally, develop your custom controller locally, then upload it to the web interface and have it execute in real-time on our remote Speedgoat and host machine set up!  Through this repository, you can get familiar with the two digital twin types we've developed of the FOSWEC device, as well as take a provided default controller applying a velocity proportional damping system and see what changes you can make to maximize the power output.
+
+Other than the open source repository, we also plan to host a variety of public workshops to provide information about real-time dynamics modeling, developing controllers for real-time simulations, and point out the challenges and benefits of using real-time controllers with digital twins.
 
 ### Developing a Custom Controller <!-- omit in toc -->
 
+Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN)
 
 ### Running Models and Controller <!-- omit in toc -->
 
