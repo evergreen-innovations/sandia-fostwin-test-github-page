@@ -1,4 +1,4 @@
-## Mask Basin Workshop & FOSTWIN Digital Twin <!-- omit in toc -->
+<!-- ## Mask Basin Workshop & FOSTWIN Digital Twin omit in toc -->
 
 **Participate in our FOSTWIN control competition for a chance to travel to the MASK Basin Workshop in Bethesda, MD on [Sandia National Lab's](https://energy.sandia.gov/programs/renewable-energy/water-power/) dime!**  
 
