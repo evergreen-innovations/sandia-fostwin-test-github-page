@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 name: FOSTWIN Controller Competition
-description: Develop a FOSWEC controller for a chance to win a trip to the MASK Basin to test the Sandia WaveBot!
+page:
+  description: Develop a FOSWEC controller for a chance to win a trip to the MASK Basin to test the Sandia WaveBot!
