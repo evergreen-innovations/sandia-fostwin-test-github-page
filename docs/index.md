@@ -36,7 +36,7 @@ The controller for the competition will be built to control a System Identificat
 3. Extend on content from the 2019 PMEC workshop (video below of PMEC Workshop) and learn about FOSWEC devices
 4. Acquire knowledge about WEC modeling in working with the [FOSTWIN](https://github.com/PMEC-OSU/FOSTWIN) open source repository
 5. Learn from Sandia WEC experts and the NAVY about developing System Identification (SID) methods from large scale testing to improve WEC modeling
-6. Deepen understanding of modeling techniques between the [WECSim](https://wec-sim.github.io/WEC-Sim/master/index.html) and [System Identification](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twins available in the interface.
+6. Deepen understanding of digital twin techniques between the [WECSim](https://wec-sim.github.io/WEC-Sim/master/index.html) and [System Identification](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twins available in the interface.
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OUxbaEC2K6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%;" allowfullscreen></iframe>
 
@@ -71,6 +71,7 @@ Other than the open source repository, we also plan to host a variety of public 
 Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided a default controller that users can take as a starting point.  Then, through the non-real-time modes you can enable when running the open source code locally, you can iteratively make changes until your satisfied with your simulation results. 
 
 Default Controller, note the inports on the left for real-time control coming from the web interface! 
+
 ![](images/default.png)
 
 From there, you can begin to test the controller through the web interface in real-time mode (or on your local Speedgoat if you have one).  One unique benefit of real-time simulations is the ability to change parameters or values while the model is running.  Via the web platform you can experiment, in real-time while a simulation is running, with different values for parameters like the damping force applied to one of the torque shafts of the FOSTWIN (FOSWEC Digital Twin).  Through these real-time experiments, you can learn what ranges of values for parameters in your controller cause model instability or find the sweet spot for parameters that maximize the power output of the system.  While working with the web interface, you'll get charts of the data flowing throughout the system and are able to download your simulation results to further your experimentation with post-processing in MATLAB.
