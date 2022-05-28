@@ -29,14 +29,6 @@ The controller for the competition will be built to control a System Identificat
 ![](images/FOSWEC2_HWRL.png)
 
 
-In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
-
-1. Enroll in the FOSTWIN control competition
-2. Get Familiar with the FOSWEC Digital Twins and the associated web interface
-3. Develop a custom controller as a Simulink Real-Time model & run in real-time through the web platform
-4. Collect & submit your results from the real-time simulation(s)
-
-
 ### Goals of Competition <!-- omit in toc -->
 
 1. Connect motivated WEC developers with industry leaders and researchers
@@ -48,7 +40,16 @@ In order to qualify for reimbursement to attend the workshop there's just a few 
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OUxbaEC2K6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%;" allowfullscreen></iframe>
 
-### How to Enroll <!-- omit in toc -->
+
+### Steps to Qualify for Reimbursement
+In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
+
+1. Enroll in the FOSTWIN control competition
+2. Get Familiar with the FOSWEC Digital Twins and the associated web interface
+3. Develop a custom controller as a Simulink Real-Time model & run in real-time through the web platform
+4. Collect & submit your results from the real-time simulation(s)
+
+## How to Enroll <!-- omit in toc -->
 
 To participate in this competition, you must have a few pre-requisites:
 
@@ -59,19 +60,19 @@ To participate in this competition, you must have a few pre-requisites:
 
 If those requirements are met, then all you'll need is to be granted access to the web interface.  Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.  You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twin model.
 
-### Getting Familiar <!-- omit in toc -->
+## Getting Familiar <!-- omit in toc -->
 
 To aid both the WEC development community and new users interested in learning about real-time control of digital twins through the web interface, we've created an [open source repository](https://github.com/PMEC-OSU/FOSTWIN).  This repo contains all code and instructions needed to run the twin and a provided default controller locally, develop your custom controller locally, then upload it to the web interface and have it execute in real-time on our remote Speedgoat and host machine set up!  Through this repository, you can get familiar with the two digital twin types we've developed of the FOSWEC device, as well as take a provided default controller applying a velocity proportional damping system and see what changes you can make to maximize the power output.
 
 Other than the open source repository, we also plan to host a variety of public workshops to provide information about real-time dynamics modeling, developing controllers for real-time simulations, and point out the challenges and benefits of using real-time controllers with digital twins.
 
-### Developing a Custom Controller and Run Through Web Interface <!-- omit in toc -->
+## Developing a Custom Controller and Run Through Web Interface <!-- omit in toc -->
 
 Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided a default controller that users can take as a starting point.  Then, through the non-real-time modes you can enable when running the open source code locally, you can iteratively make changes until your satisfied with your simulation results. 
 
 From there, you can begin to test the controller through the web interface in real-time mode (or on your local Speedgoat if you have one).  One unique benefit of real-time simulations is the ability to change parameters or values while the model is running.  Via the web platform you can experiment, in real-time while a simulation is running, with different values for parameters like the damping force applied to one of the torque shafts of the FOSTWIN (FOSWEC Digital Twin).  Through these real-time experiments, you can learn what ranges of values for parameters in your controller cause model instability or find the sweet spot for parameters that maximize the power output of the system.  While working with the web interface, you'll get charts of the data flowing throughout the system and are able to download your simulation results to further your experimentation with post-processing in MATLAB.
 
-### Collect Results and Submit <!-- omit in toc -->
+## Collect Results and Submit <!-- omit in toc -->
 
 In order to have a chance to be awarded reimbursement for traveling to the MASK Basin Workshop, your custom controller used and your simulation results must be submitted for review and ranking.  The files required will be one `.slx` file of your controller and one `.mat` file that is able to be downloaded through the web platform. These files must be submitted by **the end of summer 2023** to be considered, and will likely be able to be submitted through the web platform itself.  The exact details of the results submission are still TBD. 
 
