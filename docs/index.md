@@ -72,7 +72,7 @@ Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've
 
 Default Controller, note the inports on the left for real-time control coming from the web interface! 
 
-![](images/default.png)
+![](images/default-ctrl.png)
 
 From there, you can begin to test the controller through the web interface in real-time mode (or on your local Speedgoat if you have one).  One unique benefit of real-time simulations is the ability to change parameters or values while the model is running.  Via the web platform you can experiment, in real-time while a simulation is running, with different values for parameters like the damping force applied to one of the torque shafts of the FOSTWIN (FOSWEC Digital Twin).  Through these real-time experiments, you can learn what ranges of values for parameters in your controller cause model instability or find the sweet spot for parameters that maximize the power output of the system.  While working with the web interface, you'll get charts of the data flowing throughout the system and are able to download your simulation results to further your experimentation with post-processing in MATLAB.
 
