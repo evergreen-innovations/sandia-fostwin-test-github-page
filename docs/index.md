@@ -53,7 +53,7 @@ In order to qualify for reimbursement to attend the workshop there's just a few 
 
 To participate in this competition, you must have a few pre-requisites:
 
-1. Valid MATLAB License 
+1. Valid [MATLAB](https://www.mathworks.com/products/matlab.html) license 
 2. Valid [Simulink](https://www.mathworks.com/products/simulink.html) license
    1. Valid [Simscape](https://www.mathworks.com/products/simscape.html) license and [Simscape Multibody](https://www.mathworks.com/products/simscape-multibody.html) license - **Only required if wanting to work with the WECSim twin in local development**
 
@@ -85,6 +85,9 @@ From there, you can begin to test the controller through the web interface in re
 
 In order to have a chance to be awarded reimbursement for traveling to the MASK Basin Workshop, your custom controller used and your simulation results must be submitted for review and ranking.  The files required will be one `.slx` file of your controller and one `.mat` file that is able to be downloaded through the web platform. These files must be submitted by **the end of summer 2023** to be considered, and will likely be able to be submitted through the web platform itself.  The exact details of the results submission are still TBD. 
 
+Full resolution data downloaded from web platform and viewed in MATLAB:
+
+![](images/Full-Res.PNG)
 
 
 
