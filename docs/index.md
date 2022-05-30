@@ -12,7 +12,7 @@
 
 If you're a student or post-grad interested in wave energy converters (WEC) and developing control software for WEC's, don't miss this opportunity to be a part of large-scale tank testing of the Sandia WaveBot!  
 
-Through our [open source repository](https://github.com/PMEC-OSU/FOSTWIN), planned public workshops, and user managed web platform, we will provide all the resources needed for multiple levels of experience and dynamics modeling skill levels to have a chance at being one of the top ***N*** selected controllers!
+Through our [open source repository](https://github.com/PMEC-OSU/FOSTWIN), planned public workshops, and user managed web platform, we will provide all the resources needed for multiple levels of experience and dynamics modeling skill to have a chance at being one of the top ***N*** selected controllers!
 
 
 ##### Sandia WaveBot <!-- omit in toc -->
@@ -21,7 +21,7 @@ Through our [open source repository](https://github.com/PMEC-OSU/FOSTWIN), plann
 
 ## Competition <!-- omit in toc -->
 
-Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.gov/foswec-testing-helps-validate-open-source-modeling-code/) device.  The goal of this controller will be to generate the largest quantity of electrical power across a pre-defined simulation duration.  Top ***N*** electrical power producing controllers will be selected based off data gathered during the simulation and the developer will be awarded the opportunity to participate in, and have their travel expenses reimbursed for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
+Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.gov/foswec-testing-helps-validate-open-source-modeling-code/) device.  The goal of this controller will be to generate the largest quantity of electrical power across a pre-defined simulation duration.  Top ***N*** electrical power producing controllers will be selected based off data produced and gathered during the simulation and the developer will be awarded the opportunity to participate in, and have their travel expenses reimbursed for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
 
 
 The controller for the competition will be built to control a System Identification digital twin model of the FOSWEC device, a real world tank-scale floating oscillating surge wave energy converter.  The twin for the competition was modeled from the data collected in a similar wave tank testing campaign done at [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab). 
@@ -68,13 +68,18 @@ Other than the open source repository, we also plan to host a variety of public 
 
 ## Developing a Custom Controller and Run Through Web Interface <!-- omit in toc -->
 
-Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided a default controller that users can take as a starting point.  Then, through the non-real-time modes you can enable when running the open source code locally, you can iteratively make changes until your satisfied with your simulation results. 
+Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided a default controller that users can take as a starting point.  Then, through the non-real-time modes you can enable when running the open source code locally, you can iteratively make changes until you're satisfied with your simulation results. 
 
 Default Controller, note the inports on the left for real-time control coming from the web interface! 
 
-![](images/default-ctrl.png)
+![](images/default-ctrl.PNG)
 
 From there, you can begin to test the controller through the web interface in real-time mode (or on your local Speedgoat if you have one).  One unique benefit of real-time simulations is the ability to change parameters or values while the model is running.  Via the web platform you can experiment, in real-time while a simulation is running, with different values for parameters like the damping force applied to one of the torque shafts of the FOSTWIN (FOSWEC Digital Twin).  Through these real-time experiments, you can learn what ranges of values for parameters in your controller cause model instability or find the sweet spot for parameters that maximize the power output of the system.  While working with the web interface, you'll get charts of the data flowing throughout the system and are able to download your simulation results to further your experimentation with post-processing in MATLAB.
+
+
+![](images/dashboard.png)
+
+![](images/timeseries.png)
 
 ## Collect Results and Submit <!-- omit in toc -->
 
