@@ -14,10 +14,28 @@ If you're a student or post-grad interested in wave energy converters (WEC) and 
 
 Through our [open source repository](https://github.com/PMEC-OSU/FOSTWIN), planned public workshops, and user managed web platform, we will provide all the resources needed for multiple levels of experience and dynamics modeling skill to have a chance at being one of the top ***N*** selected controllers!
 
+## Competition Award
+
+While everyone who participates in this competition will have the opportunity to advance their WEC dynamics modeling and hardware controller skills through the events leading to the [competition submission date](#competition-timeline), the developers of top ***N*** controllers will be awarded travel expense reimbursement to attend the[**MASK Basin workshop**](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) in **September 2023**.  Through the final workshop, and the events leading up to the competition submission date, participants and awardees will meet industry leaders and WEC experts from Sandia, OSU, and the NAVY (just to name a few) to grow their wave energy network. 
+
+At the workshop, the winning developers will participate in a large scale tank testing campaign of the Sandia WaveBot.  In doing so, the awardees will learn in-depth details about tank testing of WEC devices to validate System Identification modeling techniques. In addition to the measurements collected and the numerical methods used in the system identification validation, the awardees will gain hands-on experience with the tools, sensors, and methodology used to measure forces exerted on and throughout the WEC.   
+
+
+### Competition Timeline
+
+| Event | Date |
+|---|---|
+| Competition Kick Off | August 31, 2022 |
+| MoVic | September 7-9, 2022 |
+| POET/ OREC/ UMERC/ METS Conference | September 13-15, 2022 |
+| In-person PMEC workshop at Oregon State | Winter 2022/2023 |
+| Final Submissions | Late Spring 2023 (e.g., May 2023) |
+| MASK Basin workshop | September 2023 |
 
 ##### Sandia WaveBot <!-- omit in toc -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c4npWk_-Pjk" title="YouTube video player" style="width:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Competition <!-- omit in toc -->
 
