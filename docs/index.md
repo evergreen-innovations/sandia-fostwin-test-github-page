@@ -1,19 +1,14 @@
 <!-- ## Mask Basin Workshop & FOSTWIN Digital Twin omit in toc -->
 
-**Participate in our FOSTWIN control competition for the glory and travel support for a workshop at the MASK Basin Workshop in Bethesda, MD.**
-
-
-## Competition <!-- omit in toc -->
-
 Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.gov/foswec-testing-helps-validate-open-source-modeling-code/) device.
 The goal of this controller will be to generate the ***most electrical power***.
-The top ***N*** electrical power producing controllers will be selected based off data produced and gathered during the simulation and the developer will be awarded the opportunity to participate in, and have their travel expenses reimbursed for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
+The top ***N*** electrical power producing controllers will be selected based off data produced and gathered during the simulation and the developer will be awarded bragging rights and travel expense reimbursement for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
 The competition will focus on the FOSWEC v2 device tested at the [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab), and controllers will be run against a ***digital twin*** model that runs in real time.
 
 ![](images/FOSWEC2_HWRL.png)
 
 
-### Backgroud material
+### Background material
 
  - [FOSWEC v2 YouTube video](https://youtu.be/OUxbaEC2K6Y)
  - [FOSWEC v2 testing report](https://doi.org/10.2172/1717884)
@@ -28,16 +23,16 @@ The competition will focus on the FOSWEC v2 device tested at the [OSU O.H. Hinsd
 | [Motion and Vibration Control (MoViC 2022)](https://ifacms-movic2022.seas.ucla.edu/home/) info session | September 7-9, 2022 |
 | [OREC/UMERC+METS](https://pacificoceanenergy.org/orec/) info session | September 13-15, 2022 |
 | In-person PMEC workshop at Oregon State | Winter 2022/2023 |
-| Final Submissions | Late Spring 2023 (e.g., May 2023) |
+| Final submissions due | Late Spring 2023 (e.g., May 2023) |
 | MASK Basin workshop | September 2023 |
 
 
 ### Competition Award
 
 While everyone who participates in this competition will have the opportunity to advance their WEC modeling and controller skills through the events leading to the [competition submission date](#competition-timeline), the developers of the top ***N*** controllers will be awarded travel expense reimbursement to attend the [**MASK Basin workshop**](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) in **September 2023**.
-Through the final workshop, and the events leading up to the competition submission date, participants and awardees will meet industry leaders and WEC experts from Sandia, OSU, and the NAVY (just to name a few) to grow their wave energy network.
+Through the final workshop, and the events leading up to the competition submission date, participants and awardees will meet industry leaders and WEC experts from Sandia, Oregon State University, and the NAVY (just to name a few) to grow their wave energy network.
 
-At the workshop, the winning developers will participate in a large scale tank testing campaign of the Sandia WaveBot.
+At the workshop, the winning developers will participate in a large scale tank testing campaign of the [Sandia WaveBot](https://www.youtube.com/embed/c4npWk_-Pjk).
 In doing so, the awardees will learn in-depth details about tank testing of WEC devices to validate System Identification modeling techniques.
 In addition to the measurements collected and the numerical methods used in the system identification validation, the awardees will gain hands-on experience with the tools, sensors, and methodology used to measure forces exerted on and throughout the WEC.  
 
@@ -54,8 +49,8 @@ In addition to the measurements collected and the numerical methods used in the 
 ### Goals of Competition <!-- omit in toc -->
 
 1. Connect motivated WEC developers with industry leaders and researchers
-2. Build experience with developing real-time control software for WEC Devices
-3. Extend on content from the 2019 PMEC workshop (video below of PMEC Workshop) and learn about FOSWEC devices
+2. Build experience with developing **real-time** controllers to produce **electrical power** (or other useful work) in WEC devices
+3. Extend on content from the [2019 PMEC Workshop](https://www.energy.gov/eere/water/events/integrated-wec-design-theory-and-practice-workshop) (video below of PMEC Workshop) and learn about FOSWEC devices
 4. Acquire knowledge about WEC modeling in working with the [FOSTWIN](https://github.com/PMEC-OSU/FOSTWIN) open source repository
 5. Learn from Sandia WEC experts and the NAVY about developing System Identification (SID) methods from large scale testing to improve WEC modeling
 6. Deepen understanding of digital twin techniques between the [WECSim](https://wec-sim.github.io/WEC-Sim/master/index.html) and [System Identification](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twins available in the interface.
@@ -63,25 +58,24 @@ In addition to the measurements collected and the numerical methods used in the 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OUxbaEC2K6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%;" allowfullscreen></iframe>
 
 
-### Steps to Qualify for Reimbursement
-In order to qualify for reimbursement to attend the workshop there's just a few steps you'll need to take:
+### Steps to Participate
+In order to participate in the competition, there's just a few steps you'll need to take:
 
 1. Enroll in the FOSTWIN control competition
-2. Get Familiar with the FOSWEC Digital Twins and the associated web interface
+2. Get familiar with the FOSWEC Digital Twin and the associated web interface
 3. Develop a custom controller as a Simulink Real-Time model & run in real-time through the web platform
 4. Collect & submit your results from the real-time simulation(s)
 
-## How to Enroll <!-- omit in toc -->
-
 To participate in this competition, you must have a few pre-requisites:
 
-1. Valid [MATLAB](https://www.mathworks.com/products/matlab.html) license 
-2. Valid [Simulink](https://www.mathworks.com/products/simulink.html) license
-   1. Valid [Simscape](https://www.mathworks.com/products/simscape.html) license and [Simscape Multibody](https://www.mathworks.com/products/simscape-multibody.html) license - **Only required if wanting to work with the WECSim twin in local development**
+- Valid [MATLAB](https://www.mathworks.com/products/matlab.html) license 
+- Valid [Simulink](https://www.mathworks.com/products/simulink.html) license
+- (Optional) Valid [Simscape](https://www.mathworks.com/products/simscape.html) license and [Simscape Multibody](https://www.mathworks.com/products/simscape-multibody.html) license - **Only required if wanting to work with the WECSim twin in local development**
 
-
-If those requirements are met, then all you'll need is to be granted access to the web interface.  Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.  You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twin model.
-
+<!-- If those requirements are met, then all you'll need is to be granted access to the web interface.
+Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.
+You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twin model.
+ -->
 ## Getting Familiar <!-- omit in toc -->
 
 To aid both the WEC development community and new users interested in learning about real-time control of digital twins through the web interface, we've created an [open source repository](https://github.com/PMEC-OSU/FOSTWIN).
