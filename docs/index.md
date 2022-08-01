@@ -1,9 +1,9 @@
 <!-- ## Mask Basin Workshop & FOSTWIN Digital Twin omit in toc -->
 
 Develop a controller for a digital twin of the [FOSWEC](https://energy.sandia.gov/foswec-testing-helps-validate-open-source-modeling-code/) device.
-The goal of this controller will be to generate the ***most electrical power***.
+The goal of this controller will be to generate the ***most electrical power*** while running on a ***real-time digital twin***.
+The competition will focus on the FOSWEC v2 device tested at the [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab).
 The top ***N*** electrical power producing controllers will be selected based off data produced and gathered during the simulation and the developer will be awarded bragging rights and travel expense reimbursement for attending the [MASK Basin](https://www.defense.gov/Multimedia/Photos/igphoto/2001207018/#:~:text=The%20Navy's%20Indoor%20Ocean%20%2D%2D,Carderock%20Division%2C%20located%20in%20Maryland.) Workshop in **September 2023**.
-The competition will focus on the FOSWEC v2 device tested at the [OSU O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/facilities/wave-lab), and controllers will be run against a ***digital twin*** model that runs in real time.
 
 ![](images/FOSWEC2_HWRL.png)
 
@@ -58,10 +58,10 @@ In addition to the measurements collected and the numerical methods used in the 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OUxbaEC2K6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%;" allowfullscreen></iframe>
 
 
-### Steps to Participate
+## Steps to Participate
 In order to participate in the competition, there's just a few steps you'll need to take:
 
-1. Enroll in the FOSTWIN control competition
+1. Enroll in the FOSTWIN control competition (*link coming soon*)
 2. Get familiar with the FOSWEC Digital Twin and the associated web interface
 3. Develop a custom controller as a Simulink Real-Time model & run in real-time through the web platform
 4. Collect & submit your results from the real-time simulation(s)
@@ -72,11 +72,8 @@ To participate in this competition, you must have a few pre-requisites:
 - Valid [Simulink](https://www.mathworks.com/products/simulink.html) license
 - (Optional) Valid [Simscape](https://www.mathworks.com/products/simscape.html) license and [Simscape Multibody](https://www.mathworks.com/products/simscape-multibody.html) license - **Only required if wanting to work with the WECSim twin in local development**
 
-<!-- If those requirements are met, then all you'll need is to be granted access to the web interface.
-Through a system that's currently in development, you will be provided a username and a link to create a password along with a few options of times where you can use the system.
-You'll be prompted to select a few times to reserve as your turn on the system, then can log in during those periods and run your controller against our [SystemID](https://github.com/PMEC-OSU/FOSTWIN#system-identification-model) digital twin model.
- -->
-## Getting Familiar <!-- omit in toc -->
+
+### Getting Familiar <!-- omit in toc -->
 
 To aid both the WEC development community and new users interested in learning about real-time control of digital twins through the web interface, we've created an [open source repository](https://github.com/PMEC-OSU/FOSTWIN).
 This repo contains all code and instructions needed to run the twin and a provided default controller locally, develop your custom controller locally, then upload it to the web interface and have it execute in real-time on our remote Speedgoat and host machine set up!
@@ -84,9 +81,10 @@ Through this repository, you can get familiar with the two digital twin types we
 
 Other than the open source repository, we also plan to host a variety of public workshops to provide information about real-time dynamics modeling, developing controllers for real-time simulations, and point out the challenges and benefits of using real-time controllers with digital twins.
 
-## Developing a Custom Controller and Run Through Web Interface <!-- omit in toc -->
+### Developing a Custom Controller and Run Through Web Interface <!-- omit in toc -->
 
-Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided a default controller that users can take as a starting point.  Then, through the non-real-time modes you can enable when running the open source code locally, you can iteratively make changes until you're satisfied with your simulation results. 
+Through the [open source repository](https://github.com/PMEC-OSU/FOSTWIN), we've provided an example controller that users can take as a starting point.
+Then, through the non-real-time modes, you can enable when running the open source code locally, you can iteratively make changes until you're satisfied with your simulation results. 
 
 Default Controller, note the inports on the left for real-time control coming from the web interface! 
 
@@ -102,18 +100,14 @@ While working with the web interface, you'll get charts of the data flowing thro
 
 ![](images/dashboard-charts.jpeg)
 
-## Collect Results and Submit <!-- omit in toc -->
+### Collect Results and Submit <!-- omit in toc -->
 
-In order to have a chance to be awarded reimbursement for traveling to the MASK Basin Workshop, your custom controller used and your simulation results must be submitted for review and ranking.
-The files required will be one `.slx` file of your controller and one `.mat` file that is able to be downloaded through the web platform.
-These files must be submitted by **the end of summer 2023** to be considered, and will likely be able to be submitted through the web platform itself.  The exact details of the results submission are still TBD. 
+You must submit your entry as two files:
 
-Full resolution data downloaded from web platform and viewed in MATLAB:
+- the `.mat` file containing the results of running you controller on the digital twin
+- the `.slx` file for your controller
 
 ![](images/Full-Res.PNG)
-
-
-
 
 
 
